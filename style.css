@@ -40,31 +40,32 @@ body {
 
 .topnav {
     width: 100%;
-    height: 43px;
+    height: 2.5rem;
     overflow: hidden;
-    position:fixed;
+    position: fixed;
     z-index: 1;
-    border-top:1px solid lightgrey;
-    background-color: lightgoldenrodyellow;
+    border-top: 1px solid lightgrey;
+    background-color: rgba(245, 245, 220, 0.9);
 }
 
 .topnav a {
     float: left;
-    height:100%;
+    height: 100%;
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.7rem 0.8rem;
     text-decoration: none;
     font-size: 17px;
     letter-spacing: 2px;
-    border-color:transparent;
+    border-color: transparent;
 }
 
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
+
 /*Title page*/
 
 .title {
@@ -82,7 +83,7 @@ body {
     margin-left: 15%;
     margin-top: 5px;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 0.85rem;
     text-decoration: none;
     border-radius: 20px;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
@@ -94,7 +95,8 @@ body {
     color: black;
     border: 1px solid black;
 }
-.main a:hover{
+
+.main a:hover {
     text-decoration: none;
     color: black;
     background: rgba(211, 211, 211, 0.5);
@@ -104,14 +106,14 @@ body {
 /*Oferta*/
 
 .Offer {
-    height:725px;
-    width:100%;
+    height: 100vh;
+    width: 100%;
     font-weight: 500;
-    background-color:aliceblue;
+    background-color: aliceblue;
 }
 
 .Offer h1 {
-    padding: 40px 40%;
+    padding: 2rem 40%;
 }
 
 .list {
@@ -120,5 +122,5 @@ body {
 }
 
 li {
-    margin: 20px 0;
+    margin: 1rem 0;
 }
