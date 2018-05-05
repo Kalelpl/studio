@@ -24,7 +24,7 @@ body {
 
 .top {
     width: 100%;
-    height: 680px;
+    height: 100vh;
     background-image: url(img/backgroundTop.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -71,7 +71,7 @@ body {
     padding-top: 10%;
     padding-left: 15%;
     font-weight: 200;
-    color: lightgoldenrodyellow;
+    color: black;
 }
 
 .button:link,
